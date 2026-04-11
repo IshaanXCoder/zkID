@@ -28,6 +28,7 @@ jobs:
           wget -qO /home/runner/work/circom https://github.com/iden3/circom/releases/download/v2.2.3/circom-linux-amd64
           chmod +x /home/runner/work/circom
           sudo mv /home/runner/work/circom /bin/circom
+          
 
       - name: Set up Rust
         uses: actions-rs/toolchain@v1
